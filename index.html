@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <title>Global Payments integration for Magento 2</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;900&display=swap" rel="stylesheet">
+  <link href="app.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
+</head>
+<body>
+  <div class="page__wrapper">
+    <div class="main__text">
+      <div class="container">
+        <h1>Global Payment extension for Magento 2</h1>
+      <h2>From certified Magento 2 developers</h2>
+      <img src="global-payments-logo.svg" alt="Global Payment Integration for Magento 2">
+      <img src="Magento_Logo.svg" alt="Global Payment Integration for Magento 2">
+      <div class="block__links">
+        <div class="marketplace__link">
+          <a target="_blank" href="https://marketplace.magento.com/pronko-module-realex-html.html">Buy on Marketplace</a>
+        </div>
+      <div class="website__link">
+          <a target="_blank" href="https://www.pronkoconsulting.com/realex-payments?utm_source=pages_landing&utm_medium=link&utm_campaign=globalpayments">Buy on Website</a>
+      </div>
+    </div>
+      </div>
+    </div>
+  </div>
+  
+<canvas class="background"></canvas>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.2/particles.min.js"></script>
+<script>
+    window.onload = function() {
+  Particles.init({
+    color: ['#DA0463', '#404B69', '#DBEDF3'],
+    selector: '.background',
+    connectParticles: true,
+    
+      responsive: [
+    {
+      breakpoint: 768,
+      options: {
+        maxParticles: 200,
+        color: '#48F2E3',
+        connectParticles: false
+      }
+    }, {
+      breakpoint: 425,
+      options: {
+        maxParticles: 10,
+        connectParticles: true
+      }
+    }, {
+      breakpoint: 320,
+      options: {
+        maxParticles: 0
+      }
+    }
+  ]
+    
+  });
+};
+</script>
+
+</body>
+</html>
